@@ -20,7 +20,7 @@ They expected to be able to do almost everything they can in their browser onlin
 The solution makes use of Google's Firebase Firestore, in order to store the data.
 
 ## To run the Application you must clone the repository or down it as zip and open it in Android Studio
-`git clone https://github.com/lass5643/KeaBankApp-android.git`
+`git clone https://github.com/lass5643/KeaBankApp-android-app.git`
 
 ### Login System
 * **When the app is launched, you arrive at the sign in screen with the following three options**
