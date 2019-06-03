@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.lasseberantzino.keabankapp">
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".PayBillActivity"
+            android:parentActivityName=".OverviewActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".TransactionDetailsActivity"
+            android:parentActivityName=".AccountDetailsActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".OtherAccsTransferActivity"
+            android:parentActivityName=".OverviewActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".MyAccsTransferActivity"
+            android:parentActivityName=".OverviewActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".TransferActivity"
+            android:parentActivityName=".OverviewActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".UserDetailsActivity"
+            android:parentActivityName=".OverviewActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".AccountDetailsActivity"
+            android:launchMode="singleTop"
+            android:parentActivityName=".OverviewActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".AddAccountActivity"
+            android:parentActivityName=".OverviewActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".OverviewActivity"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".SignUpActivity"
+            android:parentActivityName=".SignInActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".SignInActivity"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

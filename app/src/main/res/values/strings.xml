@@ -1,0 +1,115 @@
+<resources>
+    <string name="app_name">Kea Bank App</string>
+    <string name="error_invalid_password">Password too short or does not match</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_max_chars_25">Account name cannot be longer than 25 characters</string>
+    <string name="title_activity_test">TestActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="error_invalid_age">Provide a valid age</string>
+    <string name="account_name">Account Name</string>
+    <string name="account_id">Account Id</string>
+    <string name="balance">Balance</string>
+    <string name="balance_here">Balance Here</string>
+    <string name="account_type">Account Type</string>
+    <string name="add_account">Add account</string>
+    <string name="hint_write_a_title">Write a title</string>
+    <string name="amount">Amount</string>
+    <string name="hint_enter_amount">Enter amount</string>
+    <string name="from_account">From account</string>
+    <string name="to_account">To account</string>
+    <string name="hint_write_a_message">Write a message</string>
+    <string name="submit_transfer">Submit Transfer</string>
+    <string name="recipient">Recipient</string>
+    <string name="pay_automatically">Pay automatically</string>
+    <string name="submit_payment">Submit Payment</string>
+    <string name="hint_email_address">Email Address</string>
+    <string name="hint_password">Password</string>
+    <string name="sign_in">Sign In</string>
+    <string name="forgot_password">forgot password?</string>
+    <string name="placeholder_transaction_title_here">Transaction Title Here</string>
+    <string name="transaction_date">Transaction date:</string>
+    <string name="placeholder_transaction_date_here">Transaction date Here</string>
+    <string name="from_account_w_colon">From account:</string>
+    <string name="placeholder_from_account_here">From account Here</string>
+    <string name="to_account_w_colon">To account:</string>
+    <string name="placeholder_to_account_here">To account Here</string>
+    <string name="amount_w_colon">Amount:</string>
+    <string name="placeholder_amount_here">Amount Here</string>
+    <string name="type">Type:</string>
+    <string name="placeholder_type_here">Type Here</string>
+    <string name="auto_pay_w_colon">Auto Pay:</string>
+    <string name="message_w_colon">Message:</string>
+    <string name="placeholder_transaction_message_here">Transaction message Here</string>
+    <string name="first_name">First name</string>
+    <string name="last_name">Last name</string>
+    <string name="age">Age</string>
+    <string name="email_address">Email Address</string>
+    <string name="password">Password</string>
+    <string name="hint_confirm_password">Confirm Password</string>
+    <string name="sign_up">Sign up</string>
+    <string name="transfer_to_title">TRANSFER TO</string>
+    <string name="first_name_w_colon">First Name:</string>
+    <string name="last_name_w_colon">Last Name:</string>
+    <string name="age_w_colon">Age:</string>
+    <string name="email_address_w_colon">Email Address:</string>
+    <string name="bank_affiliate_w_colon">Bank Affiliate:</string>
+    <string name="bank_affiliate">Bank Affiliate</string>
+    <string name="placeholder_transaction_name">Transaction Name</string>
+    <string name="my_accounts">My accounts</string>
+    <string name="transfer_between_your_own_accounts">Transfer between your own accounts.</string>
+    <string name="other_accounts">Other accounts</string>
+    <string name="transfer_to_account_number">Transfer to account number.</string>
+    <string name="details">Details</string>
+    <string name="sign_out">Sign Out</string>
+    <string name="accounts">Accounts</string>
+    <string name="pay">Pay</string>
+    <string name="transfer">Transfer</string>
+    <string name="transfer_complete">Transfer complete</string>
+    <string name="payment_completed">Payment completed</string>
+    <string name="alert_title_oops">Oops</string>
+    <string name="title_add_new_account">Add New Account</string>
+    <string name="error_getting_account_type">Error getting Account Type</string>
+    <string name="error_transfer_amount_required">Transfer amount required</string>
+    <string name="error_insufficient_funds">Insufficient funds</string>
+    <string name="error_same_account">From and To account cannot be the same</string>
+    <string name="error_busy_retrieving_account_data">Busy retrieving account data. Please try again.</string>
+    <string name="error_age_lower_than_77">You must be 77 or above to withdraw from this account</string>
+    <string name="nem_id_edit_text_hint">Enter value here</string>
+    <string name="nem_id_verification_title">NemId Verification</string>
+    <string name="nem_id_message_part_1">Enter the value from key:</string>
+    <string name="nem_id_message_part_2">Value:</string>
+    <string name="nem_id_positive_btn">Proceed</string>
+    <string name="error_wrong_nem_id_code">Wrong value entered, please try again!</string>
+    <string name="nem_id_negative_btn">Cancel</string>
+    <string name="title_overview">Overview</string>
+    <string name="alert_sign_out_title">Confirm Sign Out</string>
+    <string name="alert_sign_out_message">You\'re about to sign out</string>
+    <string name="alert_sign_out_positive_btn">Continue Sign Out</string>
+    <string name="pay_bill_title">Pay Bill</string>
+    <string name="signing_in_toast_message">Signing in...</string>
+    <string name="alert_reset_password_title">Reset Password</string>
+    <string name="alert_reset_password_message">Would you like you reset the password for:</string>
+    <string name="password_reset_email_sent_toast_message">Password reset email sent.</string>
+    <string name="error_enter_reset_email_here">Enter the email to reset password for here</string>
+    <string name="sign_up_title">Sign Up</string>
+    <string name="sign_up_success_toast_message">Sign Up Successful, signing in...</string>
+    <string name="error_current_location_needed">Please wait, while we get your current location</string>
+    <string name="alert_no_network_title">No Network Connection</string>
+    <string name="alert_no_network_message">Please connect to the internet!</string>
+    <string name="error_permission_required_toast_message">Unable to show location - permission required</string>
+    <string name="transfer_title">Transfer</string>
+    <string name="user_details_title">User Details</string>
+
+    <string-array name="pay_bill_to_array">
+        <item>Yousee</item>
+        <item>Codan Insurance</item>
+        <item>Ebay</item>
+        <item>KAB</item>
+        <item>Paypal</item>
+        <item>Amazon</item>
+    </string-array>
+
+</resources>
